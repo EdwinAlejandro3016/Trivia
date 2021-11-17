@@ -2,11 +2,15 @@
   "name": "trivia",
   "version": "1.0.0",
   "description": "",
-  "main": "all.min.js",
+  "main": "triviaJS.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon app",
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
