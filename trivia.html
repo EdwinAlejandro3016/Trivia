@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TRIVIA</title>
+	<link rel="stylesheet" type="text/css" href="triviaEstilos.css">
+	<script src="all.min.js"></script>
+
+</head>
+<body class="body">
+
+	<div class="fin">
+		<div class="contenedor-titulo-juego">
+			<h1>TRIVIA <span>360</span></h1>
+		</div>
+		<div class="contenedor-comentarios-resultado">
+			<div class="comentarios-resultado">
+				<h2 id="titulo-fin">FIN DEL JUEGO</h2>
+				<h3 id="descripcion-fin">¡Mejor suerte la próxima vez!</h3>
+				<div class="porcentaje-resultado">
+					<h3 id="Porcentaje">30%</h2>
+					<h4>Porcentaje de Aciertos</h2>
+				</div>
+
+				<div class="barra">
+					<div class="item"></div>
+				</div>
+
+				<a href="" class="btn-renaudar">VOLVER A INTENTAR</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="ventanaJuego">
+		<div class="contenedor-NumeroPregunta-tiempo">
+			<div class="contenedor-NumeroPregunta">
+				<span id="numPregunta"></span><span>/</span><span id="PreguntasTotales"></span>
+			</div>
+			<div class="contenedor-reloj">
+				<h3><i class="iconoR far fa-clock"></i></h3>
+				<h3><span id="minutos">01</span><span>:</span><span id="segundos">00</span></h3>
+			</div>
+			<div class="contenedor-vidas">
+				<h3><i class="iconon fas fa-heart"></i><span id="vidas"></span></h3>
+			</div>
+		</div>
+
+		<div class="contenedor-Juego">
+			<div class="contenedor-tituloPregunta">
+				<h2 class="pregunta"></h2>
+			</div>
+
+			<div class="icono"><span>?</span></div>
+
+			<div class="contenedor-respuestas">
+				<div class="respuestas">
+					<input type="button" class="btns">
+					<input type="button" class="btns">
+					<input type="button" class="btns">
+					<input type="button" class="btns">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="triviaJS.js"></script>
+	
+</body>
+</html>
